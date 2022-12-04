@@ -17,4 +17,4 @@ $ openssl dhparam -out dhparam.pem 2048
 
 
 #### Adapt config
-Replce **sub.domain.tld** by your own domain you want to use.
+Replce **sub.domain.tld** by your own domain you want to use at any place. These places have been higlighted with <i># replace sub.domain.tld by your own</i>.
