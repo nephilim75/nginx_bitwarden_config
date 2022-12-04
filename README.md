@@ -6,6 +6,6 @@
 ## Creating a DH-parameter
 
 ```
-cd /path/to/CertificateLocation
-openssl dhparam -out dhparam.pem 2048
+$ cd /path/to/CertificateLocation
+$ openssl dhparam -out dhparam.pem 2048
 ```
