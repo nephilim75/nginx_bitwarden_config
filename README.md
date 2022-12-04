@@ -1,9 +1,11 @@
 ## Requirements:
 
 * config needs SSL certificates provided by Let's Encrypt
-* created DH parameter
+* created DH-parameter
 
-## Preparations
+## Creating a DH-parameter
 
-* create DH parameter
-* 
+```
+cd /path/to/CertificateLocation
+openssl dhparam -out dhparam.pem 2048
+```
