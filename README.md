@@ -4,6 +4,7 @@
 * created DH-parameter
 
 #### Creating a DH-parameter
+If you don't want to use the DH paramter provided by Let's Encrypt, you can create your own.
 
 ```
 $ cd /path/to/CertificateLocation
